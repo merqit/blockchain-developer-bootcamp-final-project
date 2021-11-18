@@ -1,0 +1,179 @@
+{
+  "contracts": {
+    "CooganCoin": "f90bb3490f67e420fc304b8f95cd7729803537ad",
+    "LinkToken": "49e7bae2df618e81d877632c6ad55872ff2ce801",
+    "MockOracle": "7f09d8b642ed1af8d9a3e094ab619f25db4db23c",
+    "MockV3Aggregator": "9e734e161b5cafcca52a917f10266f5a8bc05b28",
+    "OpenZeppelin/openzeppelin-contracts@3.4.0/Address": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "OpenZeppelin/openzeppelin-contracts@3.4.0/ERC721": "d6117a4cc46c62cbdf7be73318130c81771fa9a4",
+    "OpenZeppelin/openzeppelin-contracts@3.4.0/EnumerableMap": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "OpenZeppelin/openzeppelin-contracts@3.4.0/EnumerableSet": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "OpenZeppelin/openzeppelin-contracts@3.4.0/SafeMath": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "OpenZeppelin/openzeppelin-contracts@3.4.0/Strings": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "VRFCoordinatorMock": "a234e721cab3c47e532d8404949512e63f344855",
+    "smartcontractkit/chainlink-brownie-contracts@1.1.1/BasicToken": "92084ac5279a2a3db988d9e01d7e6d3e3a4dab8d",
+    "smartcontractkit/chainlink-brownie-contracts@1.1.1/SafeMathChainlink": "3b4158955f564edb18bd7a8ffdb49859c904f0b7",
+    "smartcontractkit/chainlink-brownie-contracts@1.1.1/StandardToken": "7f21b0e2f1d1fcf89f4466183c9e73bc3cf77276",
+    "smartcontractkit/chainlink-brownie-contracts@1.1.1/VRFRequestIDBase": "73df0a6f5d0123eb2b2db0faf62b602aa77c123a"
+  },
+  "tests": {
+    "tests/integration/test_coogan_int.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "s",
+      "sha1": "e929935d492d560a91375d22ad4d1466019d4621",
+      "txhash": []
+    },
+    "tests/unit/test_account_balance.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "8899b167706e9f83799ffcb9f7c0c1049abd8c3c",
+      "txhash": []
+    },
+    "tests/unit/test_coogan_coin.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "c401c174c43585181a0630debbfd69d5c212e799",
+      "txhash": []
+    },
+    "tests/unit/test_coogan_count.py": {
+      "coverage": true,
+      "isolated": false,
+      "results": ".",
+      "sha1": "0c5f23167fe85deb4077806f81db354a48e76126",
+      "txhash": [
+        "2cbef661d7f3434b987166fdb7f48a76ac325008",
+        "5dbd0754f544d0e8ce87a27cbad23215aa78c316",
+        "821f11788dc2dea81dbf6e10e52abcc2e76a0604",
+        "893c55d221d30078f6c02a8fd606a22fde6b2a4e",
+        "a4fd363cb404b90808f55d3732e06f0dc2c14267",
+        "bf8a656f851f27e3e2e785bfc53a21ea5f0b8e46",
+        "c0c76ea4ae24aa137eb1335fe3364135316eca0d",
+        "c3dc9d94919245b1d3c67eda26d86b92ead7ff9b",
+        "c524f122a28f73298f8648ab46c710a69d701d30"
+      ]
+    },
+    "tests/unit/test_network_name.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "f7d60e7b8cbdefb9cd63a2947c99764fad494aae",
+      "txhash": []
+    },
+    "tests/unit/test_skip_coverage.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": ".",
+      "sha1": "c0edf4070227cb6960bd19011c21c13fb16fede3",
+      "txhash": []
+    }
+  },
+  "tx": {
+    "2cbef661d7f3434b987166fdb7f48a76ac325008": {},
+    "5dbd0754f544d0e8ce87a27cbad23215aa78c316": {},
+    "821f11788dc2dea81dbf6e10e52abcc2e76a0604": {},
+    "893c55d221d30078f6c02a8fd606a22fde6b2a4e": {
+      "LinkToken": {
+        "5": [
+          [
+            27,
+            28,
+            29,
+            30
+          ],
+          [],
+          []
+        ],
+        "6": [
+          [
+            25,
+            26,
+            31,
+            32
+          ],
+          [],
+          []
+        ],
+        "8": [
+          [
+            8
+          ],
+          [],
+          []
+        ]
+      }
+    },
+    "a4fd363cb404b90808f55d3732e06f0dc2c14267": {},
+    "bf8a656f851f27e3e2e785bfc53a21ea5f0b8e46": {},
+    "c0c76ea4ae24aa137eb1335fe3364135316eca0d": {
+      "LinkToken": {
+        "0": [
+          [
+            21,
+            22,
+            23,
+            24,
+            33,
+            34
+          ],
+          [
+            37
+          ],
+          []
+        ],
+        "5": [
+          [
+            27,
+            28,
+            29,
+            30
+          ],
+          [],
+          []
+        ],
+        "6": [
+          [
+            25,
+            26,
+            31,
+            32
+          ],
+          [],
+          []
+        ],
+        "8": [
+          [
+            2
+          ],
+          [],
+          []
+        ]
+      },
+      "VRFCoordinatorMock": {
+        "4": [
+          [
+            0
+          ],
+          [],
+          []
+        ]
+      }
+    },
+    "c3dc9d94919245b1d3c67eda26d86b92ead7ff9b": {},
+    "c524f122a28f73298f8648ab46c710a69d701d30": {
+      "VRFCoordinatorMock": {
+        "4": [
+          [
+            1
+          ],
+          [],
+          [
+            2
+          ]
+        ]
+      }
+    }
+  }
+}
